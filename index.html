@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Allmaz</title>
+        <link rel="icon" href="/images/icon-favicon.png">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script>function showMessage() {
+          alert( 'JavaScript!' );
+          }
+        </script>
+    </head>
+
+    <body>
+        <!-- ============================================ -->
+        <!--                 Navigation                   -->
+        <!-- ============================================ -->
+        <header id="cs-navigation">
+            <div class="cs-container">
+                <!--Nav Logo-->
+                <!--Logo is turned white in the css with a filter on dark mode-->
+                <a href="" class="cs-logo" aria-label="back to home">
+                    <img src="/images/logo.png" alt="logo" width="210" height="39" aria-hidden="true" decoding="async">
+                </a>
+                <!--Navigation List-->
+                <nav class="cs-nav" role="navigation">
+                    <!--Mobile Nav Toggle-->
+                    <button class="cs-toggle" aria-label="mobile menu toggle">
+                        <div class="cs-box" aria-hidden="true">
+                            <span class="cs-line cs-line1" aria-hidden="true"></span>
+                            <span class="cs-line cs-line2" aria-hidden="true"></span>
+                            <span class="cs-line cs-line3" aria-hidden="true"></span>
+                        </div>
+                    </button>
+                    <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                    <div class="cs-ul-wrapper">
+                        <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link cs-active">
+                                    Home
+                                </a>
+                            <li class="cs-li cs-dropdown" tabindex="0">
+                                <span class="cs-li-link">
+                                    About Us
+                                    <img class="cs-drop-icon" src="/images/icon-expand.png" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                                </span>
+                                <ul class="cs-drop-ul">
+                                    <li class="cs-drop-li">
+                                        <a href="" class="cs-li-link cs-drop-link">Who We Are</a>
+                                    </li>
+                                    <li class="cs-drop-li">
+                                        <a href="" class="cs-li-link cs-drop-link">Our Experience</a>
+                                    </li>
+                                    <li class="cs-drop-li">
+                                        <a href="" class="cs-li-link cs-drop-link">Our Covid-19 Response</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <!--Copy and paste this cs-dropdown list item and replace any .cs-li with this cs-dropdown group to make a new dropdown and it will work-->
+                            <li class="cs-li cs-dropdown" tabindex="0">
+                                <span class="cs-li-link">
+                                    Services
+                                    <img class="cs-drop-icon" src="/images/icon-expand.png" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                                </span>
+                                <ul class="cs-drop-ul">
+                                    <li class="cs-drop-li">
+                                        <a href="" class="cs-li-link cs-drop-link">Mazda Wreking</a>
+                                    </li>
+                                    <li class="cs-drop-li">
+                                        <a href="" class="cs-li-link cs-drop-link">Parts Salvage</a>
+                                    </li>
+                                    <li class="cs-drop-li">
+                                        <a href="" class="cs-li-link cs-drop-link">Automative Repair</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="cs-li cs-dropdown" tabindex="0">
+                                <span class="cs-li-link">
+                                    Shop
+                                    <img class="cs-drop-icon" src="/images/icon-expand.png" alt="dropdown icon" width="15" height="15" decoding="async" aria-hidden="true">
+                                </span>
+                                <ul class="cs-drop-ul">
+                                    <li class="cs-drop-li">
+                                        <a href="" class="cs-li-link cs-drop-link">Parts</a>
+                                    </li>
+                                    <li class="cs-drop-li">
+                                        <a href="" class="cs-li-link cs-drop-link">Cars</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            </li>
+                            <li class="cs-li">
+                                <a href="" class="cs-li-link">
+                                    Contact
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="cs-contact-group">
+                    <a href="tel:03 95 44 70 44" class="cs-phone">
+                        <img class="cs-phone-icon" src="/images/icon-phone.png" alt="logo" width="24" height="24" aria-hidden="true" decoding="async">
+                        03 95 44 70 44
+                    </a>
+                    <a href="https://www.allmaz.com.au/partsenquiry/" class="cs-phone">
+                        <img class="cs-phone-icon" src="/images/login-icon.png" alt="logo" width="24" height="24" aria-hidden="true" decoding="async">
+                        Login
+                    </a>
+                </div>
+            </div>
+        </header>
+    <!-- ============================================ -->
+    <!--                    Hero                      -->
+    <!-- ============================================ -->
+
+        <section id="hero-1785">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <h1 class="cs-title">OPENING TIME</h1>
+                    <p class="cs-text">
+                        Mondays to Fridays, 08:30 AM to 5:30 PM
+                    </p>
+                    <h1 class="cs-title">DAY OFF!!!</h1>
+                    <p class="cs-text">
+                        Thursday 25 and 26 Friday April 2024
+                    </p>
+                </div>
+            </div>
+
+            <!-- Background Image -->
+            <picture class="cs-background">
+                <source media="(max-width: 600px)" srcset="/images/section1-photo.jpeg">
+                <source media="(min-width: 601px)" srcset="/images/section1-photo.jpeg">
+                <img loading="lazy" decoding="async" src="/images/section1-photo.jpeg" alt="field" width="1920" height="1200" aria-hidden="true">
+            </picture>
+
+            <!-- I don change this because this is what I want to keep -->
+            <img class="cs-graphic" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/white-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+            <!--This is a dark version. Download the image and change the fill color to match the color of the section background below it-->
+            <img class="cs-graphic cs-graphic-dark" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/dark-mode-splatter2.svg" alt="graphic" height="161" width="1920" loading="lazy" decoding="async" >
+        </section>
+
+    <!-- ============================================ -->
+    <!--                   Contact                    -->
+    <!-- ============================================ -->
+
+        <section id="contact-1388">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <h2 class="cs-title">Tell us your requests</h2>
+                    <ul class="cs-ul">
+                        <li class="cs-li">
+                            <picture class="cs-icon-wrapper">
+                                <img aria-hidden="true" src="/images/icon-phone2.png" alt="phone icon" class="cs-icon" width="40" height="40" decoding="async">
+                            </picture>
+                            <div class="cs-flex-group">
+                                <span class="cs-header">Phone</span>
+                                <a href="tel:888-4565-789
+                                " class="cs-link">03 9544 7812
+                                </a>
+                            </div>
+                        </li>
+                        <li class="cs-li">
+                            <picture class="cs-icon-wrapper">
+                                <img aria-hidden="true" src="/images/icon-gmail.png" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                            </picture>
+                            <div class="cs-flex-group">
+                                <span class="cs-header">sales@allmaz.com.au</span>
+                                <a href="sales@allmaz.com.au" class="cs-link">sales@allmaz.com.au</a>
+                            </div>
+                        </li>
+                        <li class="cs-li">
+                            <picture class="cs-icon-wrapper">
+                                <img aria-hidden="true" src="/images/icon-position.png" alt="address icon" class="cs-icon" width="40" height="40" decoding="async">
+                            </picture>
+                            <div class="cs-flex-group">
+                                <span class="cs-header">Address</span>
+                                <a href="" class="cs-link">492 Clayton Road<br> Clayton, VIC 3168</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!--Form-->
+                <form class="cs-form" id="cs-form-1388" name="Contact Form" method="post">
+                    <h3 class="cs-h3">Book A Service</h3>
+                    <label class="cs-label">
+                        Name
+                        <input class="cs-input" required type="text" id="name-1388" name="name" placeholder="Name">
+                    </label>
+                    <label class="cs-label cs-phone">
+                        Phone
+                        <input class="cs-input" required type="number" id="phone-1388" name="phone" placeholder="Phone">
+                    </label>
+                    <label class="cs-label">
+                        Service
+                        <input class="cs-input" required type="text" id="service-1388" name="service" placeholder="Service">
+                    </label>
+                    <label class="cs-label">
+                        Specific Requirements
+                        <textarea class="cs-input cs-textarea" required name="Specific requirements" id="specific-requirements-1388" placeholder="Write any specific or special requirements"></textarea>
+                    </label>
+                    <button class="cs-button-solid cs-submit" type="submit">Send Request</button>
+                </form>
+            </div>
+        </section>
+
+
+    <!-- ============================================ -->
+    <!--                 Why Choose                   -->
+    <!-- ============================================ -->
+        <section id="why-choose-289">
+            <div class="cs-container">
+                <h2 class="cs-title">WHY CHOOSE US</h2>
+                <ul class="cs-card-group">
+                    <li class="cs-item">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/images/repair_icon.png" alt="icon" width="48" height="48">
+                        <h3 class="cs-h3">FULL SERVICE EXPERTS</h3>
+                        <p class="cs-item-text">
+                            Our services are repaired by professional experts to ensure your taking time
+                        </p>
+                    </li>
+
+                    <li class="cs-item">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/images/transparenr-icon.png" alt="icon" width="48" height="48">
+                        <h3 class="cs-h3">TRANSPARENT</h3>
+                        <p class="cs-item-text">
+                            After receiving you request, we will send you the final price which include all of fee you have to pay. No more payments required after that.
+                        </p>
+                    </li>
+                    <li class="cs-item">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/images/mechanic-icon.png" alt="icon" width="40" height="48">
+                        <h3 class="cs-h3">QUALITY WORKMANSHIP</h3>
+                        <p class="cs-item-text">
+                            Our mechanics are experts, they have been working in this industry for at least 10 years.
+                        </p>
+                    </li>
+                    <li class="cs-item">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/images/affordable-icon.png" alt="icon" width="48" height="48">
+                        <h3 class="cs-h3">AFFORDABLE</h3>
+                        <p class="cs-item-text">
+                            Working with us, you will have the best price you could ever find. We ensure the honesty and the afodability on all things.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    <!-- ============================================ -->
+    <!--                   Reviews                    -->
+    <!-- ============================================ -->
+        <section id="reviews-354">
+            <div class="cs-container">
+                <div class="cs-content">
+                    <span class="cs-topper">OUR REVIEWERS</span>
+                    <h2 class="cs-title">We have repaired for thousand of cars</h2>
+                </div>
+                <ul class="cs-card-group" >
+                    <li class="cs-item">
+                        <p class="cs-review">
+                            “I’m so glad someone recommended Allmaz to me. Julian was wonderful and had my Mazda back up and running in 1 day! Great service from the whole team - I couldn’t be happier!” 
+                        </p>
+                        <span class="cs-name">ELIZABETH M.</span>
+                    </li>
+                    <li class="cs-item">
+                        <p class="cs-review">
+                            “I will never take my car to a Mazda dealer again. Allmaz did everything I asked for and more at the price quoted. Thanks for the great service - see you again soon!”
+                        </p>
+                        <span class="cs-name">KERYL F.</span>
+                    </li>
+            </div>
+        </section>
+        <section id="car-pictures">
+            <h1>CAR REPAIRED PICTURE</h1>        
+            <p id="filters">
+            <button data-filter=".mazda, .honda, .toyota">All</button>
+            <button data-filter=".mazda">Mazda cars</button>
+            <button data-filter=".honda">Honda cars</button>
+            <button data-filter=".toyota">Toyota cars</button> 
+            </p>
+            <p id="products">
+            <a href="/images/hondacar1.jpeg" data-fancybox="gallery" data-caption="A wreaking Honda car">
+                <img src="/images/hondacar1.jpeg" alt="" class="honda" /> 
+            </a>
+            <a href="/images/hondacar3.jpeg" data-fancybox="gallery" data-caption="A wreaking Honda car">
+                <img src="/images/hondacar3.jpeg" alt="" class="honda" /> 
+            </a>
+            <a href="/images/tocar1.jpeg" data-fancybox="gallery" data-caption="A wreaking Toyota car">
+                <img src="/images/tocar1.jpeg" alt="" class="toyota" /> 
+            </a>
+            <a href="/images/tocar3.jpeg" data-fancybox="gallery" data-caption="A wreaking Toyota car">
+                <img src="/images/tocar3.jpeg" alt="" class="toyota" /> 
+            </a>
+            <a href="/images/mazdacar2.jpeg" data-fancybox="gallery" data-caption="A wreaking Mazda car">
+                <img src="/images/mazdacar2.jpeg" alt="" class="mazda" /> 
+            </a>
+            <a href="/images/mazdacar3.jpeg" data-fancybox="gallery" data-caption="A wreaking Mazda car">
+                <img src="/images/mazdacar3.jpeg" alt="" class="mazda" /> 
+            </a>
+            <a href="/images/mazdacar1.jpeg" data-fancybox="gallery" data-caption="A wreaking Mazda car">
+                <img src="/images/mazdacar1.jpeg" alt="" class="mazda" /> 
+            </a>
+            <a href="/images/hondacar2.jpeg" data-fancybox="gallery" data-caption="A wreaking Honda car">
+                <img src="/images/hondacar2.jpeg" alt="" class="honda" /> 
+            </a>
+            <a href="/images/tocar2.jpeg" data-fancybox="gallery" data-caption="A wreaking Toyota car">
+                <img src="/images/tocar2.jpeg" alt="" class="toyota" /> 
+            </a>
+            </p>
+        </section>
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+        <footer id="cs-footer-308">
+            <div class="cs-container">
+                <!-- Logo Group -->
+                <div class="cs-logo-group">
+                    <a aria-label="go back to home" class="cs-logo" href="">
+                        <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="/images/logo.png" alt="logo" width="178" height="32">
+                    </a>
+                    <p class="cs-text">
+                        Your best car, our best pleasure
+                    </p>
+                </div>
+                <!-- Links -->
+                <ul class="cs-nav">
+                    <li class="cs-nav-li">
+                        <span class="cs-header">ABOUT US</span>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Who We Are</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Our Experience</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Our Covid-19 Response</a>
+                    </li>
+                </ul>
+                <ul class="cs-nav">
+                    <li class="cs-nav-li">
+                        <span class="cs-header">SERVICES</span>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Mazda Wreking</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Parts Salvage</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Automative Repair</a>
+                    </li>
+                </ul>
+                <ul class="cs-nav">
+                    <li class="cs-nav-li">
+                        <span class="cs-header">SHOPS</span>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Parts</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <a class="cs-nav-link" href="">Cars</a>
+                </ul>
+                <!-- Contact Info -->
+                <ul class="cs-nav">
+                    <li class="cs-nav-li">
+                        <span class="cs-header">Contact</span>
+                    </li>
+                    <li class="cs-nav-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/images/icon-phone2.png" alt="phone" width="24" height="24">
+                        <a class="cs-nav-link cs-phone" href="tel: 123-456-7890">03 9544 7044</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/images/icon-gmail.png" alt="email" width="24" height="24">
+                        <a class="cs-nav-link cs-email" href="mailto:info@codestitch.com">sales@allmaz.com.au</a>
+                    </li>
+                    <li class="cs-nav-li">
+                        <img class="cs-icon" aria-hidden="true" loading="lazy" decoding="async" src="/images/icon-position.png" alt="pin" width="24" height="24">
+                        <a class="cs-nav-link cs-address" href="" target="_blank" rel="noopener">
+                            492 Clayton Road<br> Clayton, VIC 3168
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="cs-bottom">
+                <span class="cs-copyright">Copyright © 2020. All rights reserved<a class="cs-copyright-link" href="">Created in Sitebeat.</a></span>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+        <script script src="script.js">//showMessage();
+        </script>
+    </body>
+</html>
